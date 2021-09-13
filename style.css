@@ -2,3 +2,23 @@ body {
     background-color: #0f0f0f;
     color: #ffffff;
   }
+
+  .pageBody {
+    margin: 5% 0% 5% 10%;
+    justify: left;
+    min-height: 60%;
+    min-width: 60%;
+    max-height: 95%;
+    max-width: 80%;
+    background-color: #202020!important;
+    border: solid 1px #ffffff;
+    z-index:1;
+  }
+
+  .text {
+    margin-left: 10%;
+  }
+  
+  h1 {
+      font-size: 16px;
+  }
