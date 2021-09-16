@@ -1,35 +1,57 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
-body, html {
+html {
   
     color: #cfcfcf;
     font-family: "Im Fell English";
     background-image: url('./images/food.jpg');
-    background-repeat: repeat;
     background-size: 1400px 1400px
   }
 
   
+  html::-webkit-scrollbar {
+    display: none;
+  }
 
   .pageBody {
-    display: flex;
-   // margin: 5% 0% 5% 10%;
+    display: block;
+    width: 50%;
+    margin: 0 auto;
     min-height: 60%;
-    min-width: 40%;
+    min-width: 336px;
     max-width: 800px;
     top:0;
     background-color: rgba(0, 0, 0, 0.89);
     border: solid 1px #252525;
   }
 
+  .pastaImg {
+    align: left;
+    display: block;
+    min-width: 20px;
+    width: 300px;
+    border-radius: 5%;
+    border: solid 1px #4b4b4b;
+  }
+
   .text {
+    align:left;
+   // display: inline-block;
     margin: 5% 2% 10% 5%;
   }
   
   h1 {
       font-size: 22px;
+      margin-left: 33px;
   }
 
+  .blurb {
+    text-indent: 28px;
+    font-family: "Im Fell English";
+    font-weight:700;
+    margin-left: 5px;
+    margin-right: 14px;
+  }
   
   /* background image attribution */
 
@@ -69,3 +91,4 @@ body, html {
     color: #3f3f3f!important;
     text-decoration: none;
   }
+  
