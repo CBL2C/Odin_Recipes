@@ -64,6 +64,13 @@ html {
     font-family: "Im Fell English";
     font-weight:700;
   }
+
+  ol {
+    line-height:22px;
+    font-family: "Im Fell English";
+    font-weight:700;
+
+  }
   
   /* background image attribution */
 
