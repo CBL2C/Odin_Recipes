@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
 body, html {
-    position: relative;
-    height: 100%;
+  
     color: #cfcfcf;
     font-family: "Im Fell English";
+    background-image: url('./images/food.jpg');
+    background-repeat: repeat;
+    background-size: 1400px 1400px
   }
 
   
 
   .pageBody {
-    margin: 5% 0% 5% 10%;
-    justify: left;
+    display: flex;
+   // margin: 5% 0% 5% 10%;
     min-height: 60%;
-    min-width: 60%;
-    max-height: 95%;
-    max-width: 80%;
+    min-width: 40%;
+    max-width: 800px;
     top:0;
-    position:absolute;
     background-color: rgba(0, 0, 0, 0.89);
     border: solid 1px #252525;
   }
@@ -31,61 +31,41 @@ body, html {
   }
 
   
-  /* Background scroll */
+  /* background image attribution */
 
-  .container {
-    background: #222;
-    height: 100%;
-    margin: 0;
-    overflow: auto;
-    overflow: hidden;
-    perspective: 1800px;
-    position: fixed;
-    top: 0;
-    left: 0;
+ .bottom {
     bottom: 0;
-    right: 0;
+    position: absolute;
+    width: 99%;
+    
   }
 
-  .container:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 10;
+  .attribution {
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    line-height: 60px;
+    font-size: 7px;
+    color: #3f3f3f;
+    text-decoration: none;
+    font-family: impact;
   }
-  .wrap {
-    position: absolute;
-    top: -60%;
-    left: -10%;
-    height: 300%;
-    width: 200%;
-    transform: rotateX(20deg) rotateY(40deg) rotateZ(-20deg);
-    z-index: 5;
-    margin: -5px -5px -5px -5px;
+
+  a {
+    font-family: impact;
   }
-  .pattern {
-    background-size: 1300px;
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 400%;
-  
-    animation: scroll linear 1200s infinite;
+
+  a:link {
+    text-decoration: none;
+    color: #3f3f3f!important;
   }
-  
-  
-  .pattern {
-    background-image: url('./images/food.jpg');
+
+  a:hover {
+    text-decoration: underline;
   }
-  
-  @keyframes scroll {
-    from   {
-      transform: translate3d(0, 0, 0);
-    }
-    to {
-      transform: translate3d(-4000px, 0, 0);
-    }
+
+  a:visited {
+    color: #3f3f3f!important;
+    text-decoration: none;
   }
