@@ -1,8 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
+
 html {
-    color: #cfcfcf;
-    font-family: "Im Fell English";
+  --lightGray: #cfcfcf;
+  --darkGray: #3f3f3f;
+  --fellEnglish:"Im Fell English";
+}
+
+html {
+    color: var(--lightGray);
+    font-family: ;
     background-image: url('./images/food.jpg');
     background-size: 1400px 1400px
   }
@@ -30,14 +37,14 @@ html {
   }
 
   .attributionLinks {
-    color: #3f3f3f;
+    color: var(--darkGray);
     text-decoration: none;
     font-family:impact;
   }
 
   .attributionLinks:link {
     text-decoration: none;
-    color: #3f3f3f;
+    color: var(--darkGray);
   }
 
   .attributionLinks:hover {
@@ -45,7 +52,7 @@ html {
   }
 
   .attributionLinks:visited {
-    color: #3f3f3f;
+    color: var(--lightGray);
     text-decoration: none;
   }
   /* the rest of the styling */
@@ -58,7 +65,7 @@ html {
     min-width: 336px;
     max-width: 800px;
     background-color: rgba(0, 0, 0, 0.89);
-    border: solid 1px #252525;
+    border: solid 1px var(--darkGray);
   }
 
   .text {
@@ -67,7 +74,7 @@ html {
   }
   
   h1 {
-    color: #cfcfcf;
+    color: var(--lightGray);
     font-size: 22px;
   }
 
@@ -79,7 +86,7 @@ html {
 
   .links:link {
     text-decoration: none;
-    color: #cfcfcf;
+    color: var(--lightGray);
   }
   
   .links:hover {
@@ -89,5 +96,5 @@ html {
   
   .links:visited {
     text-decoration: none;
-    color: #cfcfcf;
+    color: var(--lightGray);
   }
