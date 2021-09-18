@@ -19,7 +19,6 @@ html {
     width: 99%;    
   }
 
-  
   #attribution {
     bottom: 0px;
     display: flex;
@@ -29,8 +28,6 @@ html {
     font-size: 9px;
     text-decoration: none;
   }
-  
-
 
   .attributionLinks {
     color: #3f3f3f;
