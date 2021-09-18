@@ -71,18 +71,22 @@ html {
     font-size: 22px;
   }
 
-  .link {
+  .links {
     text-decoration: none;
-    text-indent: 28px;
+    text-indent: 32px;
     font-family: "Im Fell English";
   }
 
-  .link:link {
+  .links:link {
     text-decoration: none;
     color: #cfcfcf;
   }
   
-  .link:visited {
+  .links:hover {
+
+  }
+  
+  .links:visited {
     text-decoration: none;
     color: #cfcfcf;
   }
