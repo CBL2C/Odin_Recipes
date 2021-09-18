@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
 
-
 html {
   --lightGray: #cfcfcf;
   --darkGray: #3f3f3f;
@@ -52,7 +51,7 @@ html {
   }
 
   .attributionLinks:visited {
-    color: var(--lightGray);
+    color: var(--darkGray);
     text-decoration: none;
   }
   /* the rest of the styling */

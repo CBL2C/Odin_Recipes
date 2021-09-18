@@ -1,3 +1,9 @@
+html {
+    --lightGray: #cfcfcf;
+    --fellEnglish:"Im Fell English";
+  }
+
+
 .img {
     align: left;
     display: block;
@@ -8,20 +14,20 @@
   }
 
   h1 {
-    color: #cfcfcf;
+    color: var(--lightGray);
     font-size: 22px;
     margin-left: 33px;
   }
 
   h2 {
-    color: #cfcfcf;
+    color: var(--lightGray);
     font-size: 18px;
   }
 
   .blurb {
-    color: #cfcfcf;
+    color: var(--lightGray);
     text-indent: 28px;
-    font-family: "Im Fell English";
+    font-family: var(--fellEnglish);
     font-weight:700;
     margin-left: 5px;
     margin-right: 14px;
@@ -29,28 +35,28 @@
 
   ul {
     line-height:22px;
-    font-family: "Im Fell English";
+    font-family: var(--fellEnglish);
     font-weight:700;
   }
 
   ol {
     line-height:22px;
-    font-family: "Im Fell English";
+    font-family: var(--fellEnglish);
     font-weight:700;
 
   }
 
   .ingredient {
     text-indent: 28px;
-    font-family: "Im Fell English";
+    font-family: var(--fellEnglish);
   }
 
   .ingredient:link {
     text-decoration: none;
-    color: #cfcfcf;
+    color: var(--lightGray);
   }
   
   .ingredient:visited {
     text-decoration: none;
-    color: #cfcfcf;
+    color: var(--lightGray);
   }
