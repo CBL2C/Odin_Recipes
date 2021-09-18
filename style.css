@@ -12,6 +12,47 @@ html {
     display: none;
   }
 
+  /* background image attribution */
+  .bottom {
+    bottom: 0;
+    position: absolute;
+    width: 99%;    
+  }
+
+  
+  #attribution {
+    bottom: 0px;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    line-height: 40px;
+    font-size: 9px;
+    text-decoration: none;
+  }
+  
+
+
+  .attributionLinks {
+    color: #3f3f3f;
+    text-decoration: none;
+    font-family:impact;
+  }
+
+  .attributionLinks:link {
+    text-decoration: none;
+    color: #3f3f3f;
+  }
+
+  .attributionLinks:hover {
+    text-decoration: underline;
+  }
+
+  .attributionLinks:visited {
+    color: #3f3f3f;
+    text-decoration: none;
+  }
+  /* the rest of the styling */
+
   .pageBody {
     display: block;
     width: 50%;
@@ -19,7 +60,6 @@ html {
     min-height: 60%;
     min-width: 336px;
     max-width: 800px;
-    top:0;
     background-color: rgba(0, 0, 0, 0.89);
     border: solid 1px #252525;
   }
@@ -35,7 +75,6 @@ html {
 
   .text {
     align:left;
-   // display: inline-block;
     margin: 5% 2% 10% 5%;
   }
   
@@ -71,43 +110,18 @@ html {
     font-weight:700;
 
   }
-  
-  /* background image attribution */
 
- .bottom {
-    bottom: 0;
-    position: absolute;
-    width: 99%;
-    
+  .ingredient {
+    text-indent: 28px;
+    font-family: "Im Fell English";
   }
 
-  .attribution {
-    bottom: 0px;
-    display: flex;
-    justify-content: center;
-    height: 30px;
-    line-height: 60px;
-    font-size: 7px;
-    color: #3f3f3f;
+  .ingredient:link {
     text-decoration: none;
-    font-family: impact;
-  }
-
-  a {
-    font-family: impact;
-  }
-
-  a:link {
-    text-decoration: none;
-    color: #3f3f3f!important;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  a:visited {
-    color: #3f3f3f!important;
-    text-decoration: none;
+    color: #cfcfcf;
   }
   
+  .ingredient:visited {
+    text-decoration: none;
+    color: #cfcfcf;
+  }
