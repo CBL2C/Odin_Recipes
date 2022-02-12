@@ -10,7 +10,8 @@ html {
     color: var(--lightGray);
     font-family: var(--fellEnglish);
     background-image: url('./images/food.jpg');
-    background-size: 1400px 1400px
+    background-size: 1400px 1400px;
+    transition:.2s ease-in-out;
   }
 
   
